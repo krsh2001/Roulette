@@ -1,0 +1,115 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION (0xc0000005) occurred at PC=0x51EAF30
+Function=Java_sun_java2d_loops_MaskFill_MaskFill+0x6800
+Library=C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\awt.dll
+
+Current Java thread:
+	at sun.java2d.loops.Blit.Blit(Native Method)
+	at sun.java2d.pipe.DrawImage.blitSurfaceData(Unknown Source)
+	at sun.java2d.pipe.DrawImage.renderSurfaceData(Unknown Source)
+	at sun.java2d.pipe.DrawImage.copyImage(Unknown Source)
+	at sun.java2d.pipe.DrawImage.copyImage(Unknown Source)
+	at sun.java2d.pipe.DrawImage.copyImage(Unknown Source)
+	at sun.java2d.SunGraphics2D.drawImage(Unknown Source)
+	at sun.java2d.SunGraphics2D.drawImage(Unknown Source)
+	at hsa.ConsoleCanvasGraphics.drawWindowToGraphics(ConsoleCanvasGraphics.java:523)
+	at hsa.ConsoleCanvasGraphics.paint(ConsoleCanvasGraphics.java:830)
+	at sun.awt.RepaintArea.paint(Unknown Source)
+	at sun.awt.windows.WComponentPeer.handleEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Dynamic libraries:
+0x00400000 - 0x00437000 	C:\Program Files (x86)\Ready to Program\Support\Bin\javasup.exe
+0x77E40000 - 0x77FC3000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x74FE0000 - 0x750C0000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x77B80000 - 0x77D21000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x74A00000 - 0x74B5F000 	C:\WINDOWS\System32\USER32.dll
+0x759A0000 - 0x759B5000 	C:\WINDOWS\System32\win32u.dll
+0x10000000 - 0x10029000 	C:\Program Files (x86)\Ready to Program\Support\Bin\jsdll.dll
+0x76FD0000 - 0x76FFB000 	C:\WINDOWS\System32\GDI32.dll
+0x77720000 - 0x7787B000 	C:\WINDOWS\System32\gdi32full.dll
+0x74EF0000 - 0x74FD5000 	C:\WINDOWS\System32\comdlg32.dll
+0x74C50000 - 0x74D0E000 	C:\WINDOWS\System32\msvcrt.dll
+0x759D0000 - 0x75BE1000 	C:\WINDOWS\System32\combase.dll
+0x751F0000 - 0x752D0000 	C:\WINDOWS\System32\ucrtbase.dll
+0x770E0000 - 0x771A1000 	C:\WINDOWS\System32\RPCRT4.dll
+0x74900000 - 0x7491E000 	C:\WINDOWS\System32\SspiCli.dll
+0x748F0000 - 0x748FA000 	C:\WINDOWS\System32\CRYPTBASE.dll
+0x74920000 - 0x7497A000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x75950000 - 0x75991000 	C:\WINDOWS\System32\sechost.dll
+0x756E0000 - 0x75768000 	C:\WINDOWS\System32\shcore.dll
+0x75900000 - 0x75946000 	C:\WINDOWS\System32\SHLWAPI.dll
+0x75BF0000 - 0x76FC9000 	C:\WINDOWS\System32\SHELL32.dll
+0x770A0000 - 0x770D6000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x72E30000 - 0x72EC4000 	C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.14393.447_none_5507ded2cb4f7f4c\COMCTL32.dll
+0x771B0000 - 0x7771E000 	C:\WINDOWS\System32\windows.storage.dll
+0x74980000 - 0x749F7000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x77000000 - 0x77045000 	C:\WINDOWS\System32\powrprof.dll
+0x74DA0000 - 0x74DAD000 	C:\WINDOWS\System32\kernel.appcore.dll
+0x750C0000 - 0x750CF000 	C:\WINDOWS\System32\profapi.dll
+0x751C0000 - 0x751E5000 	C:\WINDOWS\System32\IMM32.DLL
+0x08000000 - 0x08136000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+0x72D70000 - 0x72D94000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x72BA0000 - 0x72BC3000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x72F50000 - 0x72FE2000 	C:\WINDOWS\system32\apphelp.dll
+0x020F0000 - 0x020F7000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+0x02170000 - 0x0217E000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+0x021E0000 - 0x021F8000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+0x02180000 - 0x0218D000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+0x04A40000 - 0x04A5C000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\jdwp.dll
+0x02200000 - 0x02206000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+0x051E0000 - 0x052EF000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\awt.dll
+0x750D0000 - 0x751BA000 	C:\WINDOWS\System32\ole32.dll
+0x72BD0000 - 0x72C3A000 	C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+0x74020000 - 0x7403B000 	C:\WINDOWS\SYSTEM32\bcrypt.dll
+0x60E40000 - 0x610A4000 	C:\WINDOWS\AppPatch\AcGenral.DLL
+0x77DA0000 - 0x77E34000 	C:\WINDOWS\System32\OLEAUT32.dll
+0x6BD30000 - 0x6BDA5000 	C:\WINDOWS\SYSTEM32\UxTheme.dll
+0x62DF0000 - 0x62E05000 	C:\WINDOWS\SYSTEM32\samcli.dll
+0x74B60000 - 0x74BDB000 	C:\WINDOWS\System32\msvcp_win.dll
+0x6B540000 - 0x6B558000 	C:\WINDOWS\SYSTEM32\MSACM32.dll
+0x73510000 - 0x73518000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x734F0000 - 0x7350A000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x72C40000 - 0x72C5F000 	C:\WINDOWS\SYSTEM32\dwmapi.dll
+0x73C60000 - 0x73DF4000 	C:\WINDOWS\SYSTEM32\urlmon.dll
+0x72C60000 - 0x72C76000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x73A30000 - 0x73C59000 	C:\WINDOWS\SYSTEM32\iertutil.dll
+0x052F0000 - 0x05340000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\fontmanager.dll
+0x72C80000 - 0x72D6D000 	C:\WINDOWS\SYSTEM32\ddraw.dll
+0x72B90000 - 0x72B97000 	C:\WINDOWS\SYSTEM32\DCIMAN32.dll
+0x60440000 - 0x60E39000 	C:\WINDOWS\SYSTEM32\igdumdim32.dll
+0x600C0000 - 0x6043A000 	C:\WINDOWS\SYSTEM32\igdusc32.dll
+0x61310000 - 0x6137D000 	C:\WINDOWS\SYSTEM32\D3DIM700.DLL
+0x74DB0000 - 0x74EE5000 	C:\WINDOWS\System32\MSCTF.dll
+0x07E30000 - 0x07E4E000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\jpeg.dll
+0x07E50000 - 0x07E73000 	C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\cmm.dll
+0x77920000 - 0x77939000 	C:\WINDOWS\System32\imagehlp.dll
+0x74100000 - 0x74245000 	C:\WINDOWS\System32\dbghelp.dll
+0x75780000 - 0x75786000 	C:\WINDOWS\System32\PSAPI.DLL
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 82K [0x10030000, 0x100d0000, 0x10510000)
+  eden space 512K,  13% used [0x10030000, 0x10041018, 0x100b0000)
+  from space 64K,  22% used [0x100c0000, 0x100c3930, 0x100d0000)
+  to   space 64K,   0% used [0x100b0000, 0x100b0000, 0x100c0000)
+ tenured generation   total 4452K, used 3608K [0x10510000, 0x10969000, 0x14030000)
+   the space 4452K,  81% used [0x10510000, 0x10896298, 0x10896400, 0x10969000)
+ compacting perm gen  total 4096K, used 3519K [0x14030000, 0x14430000, 0x18030000)
+   the space 4096K,  85% used [0x14030000, 0x1439fef8, 0x143a0000, 0x14430000)
+
+Local Time = Sun Jan 08 14:40:46 2017
+Elapsed Time = 511
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_01-b06 mixed mode)
+#
