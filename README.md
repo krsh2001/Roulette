@@ -9,7 +9,7 @@ Download Ready to Program Java and open Roulette.java
 ### Prerequisites
 
 * The most recent version of the [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-* A Java IDE, we created this game using [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* [Ready to Program Java IDE](http://compsci.ca/holtsoft/)
 
 ## Built With
 
